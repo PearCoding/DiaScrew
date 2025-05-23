@@ -1,6 +1,7 @@
 # DiaScrew
 
 I wasn't happy with the diashow apps available in the world wide web, so I said: "Screw it, I am making my own."
+
 Here we are now.
 
 ## Why NOT to use this
@@ -21,6 +22,7 @@ Alongside Pillow this needs the tkinter package.
 
 ## Controls
 
-You can press "F11" to switch to fullscreen.
-Left and right arrow keys allow faster transfer to the next or previous slide.
+You can press ``F11`` to switch to fullscreen.
+
+``Left`` and ``Right`` arrow keys allow manual skip to the next or previous slide.
 
