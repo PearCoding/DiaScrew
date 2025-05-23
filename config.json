@@ -1,0 +1,10 @@
+{
+    "images": [
+        "./"
+    ],
+    "duration": {
+        "image": 10,
+        "title": 4
+    },
+    "titles": {}
+}
