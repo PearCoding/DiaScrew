@@ -18,7 +18,9 @@ Basic python app to display images with boring transition and optional titles.
 
 ## Dependencies
 
-Alongside Pillow this needs the tkinter package.
+Alongside ``Pillow`` this needs the ``tkinter`` package.
+
+``wakepy`` can be installed to keep the screensaver at bay.
 
 ## Controls
 

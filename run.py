@@ -255,4 +255,18 @@ if __name__ == '__main__':
         w.toggle_fullscreen()
 
     w.handle_image()
-    w.tk.mainloop()
+
+    # Check if wakepy can be used
+    try:
+        import wakepy
+        keep = wakepy.keep
+    except:
+        print("No 'wakepy' found. Screensaver or suspend might get in your way.")
+        keep = None
+
+    # Run it!
+    if keep:
+        with keep.presenting():
+            w.tk.mainloop()
+    else:
+        w.tk.mainloop()
